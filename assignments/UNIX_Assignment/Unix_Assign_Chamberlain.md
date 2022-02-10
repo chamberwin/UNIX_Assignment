@@ -18,9 +18,10 @@ This command provides human-readable information about file size.
   
     tail -n +6 fang_et_al_genotypes | awk -F "\t" '{print NF; exit}' fang_et_al_genotypes.txt
 This command starts by looking at the last 6 lines in the data in order to remove the header and print the number of columns.
-  =
+ 
 
 By inspecting this file I learned that:
+=
 1. There is 1 row of header that contains Sample_ID, JG_OTU, Group, and SNP ID. Within those columns are SNP data. 
 2. There are 2783 lines, 2744038 words, and 11051939 characters/bytes
 3. The file is 6.5M
