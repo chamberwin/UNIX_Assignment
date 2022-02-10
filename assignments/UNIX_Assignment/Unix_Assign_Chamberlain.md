@@ -1,25 +1,30 @@
-#Chamberlain UNIX Assignment
+# Chamberlain UNIX Assignment
 
-##Data Inspection
+## Data Inspection
 
-###Attributes of fang_et_al_genotypes
+### Attributes of fang_et_al_genotypes
 
 I started my inspection by looking at the first the last lines of code to understand the headings and layout, then went on to examine size.
     
 
     (head -n 3; tail -n 3) < fang_et_al_genotypes.txt
+This command looks at the first 3 and last 3 lines of the file.
+
     wc fang_et_al_genotypes.txt
-    ls -lh fang_et_al_genotypes.txt
+This command provides the line, word, and character/byte count.
+  
     du -h fang_et_al_genotypes.txt
+This command provides human-readable information about file size.
+  
     tail -n +6 fang_et_al_genotypes | awk -F "\t" '{print NF; exit}' fang_et_al_genotypes.txt
+This command starts by looking at the last 6 lines in the data in order to remove the header and print the number of columns.
   =
 
 By inspecting this file I learned that:
 1. There is 1 row of header that contains Sample_ID, JG_OTU, Group, and SNP ID. Within those columns are SNP data. 
 2. There are 2783 lines, 2744038 words, and 11051939 characters/bytes
-3. 11M *Why is this different than du -h?*
-4. The file is 6.5M
-5. There are 986 columns after the header is removed.
+3. The file is 6.5M
+4. There are 986 columns after the header is removed.
 
 
 ###Attributes of snp_position.txt
