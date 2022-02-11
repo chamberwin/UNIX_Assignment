@@ -21,7 +21,7 @@ This command starts by looking at the last 6 lines in the data in order to remov
  
 
 ### By inspecting this file I learned that:
-1. There is 1 row of header that contains Sample_ID, JG_OTU, Group, and SNP ID. Within those columns are SNP data. 
+1. There is 1 row of header that contains Sample_ID, JG_OTU, Group, and columns that include multiple SNP IDs. Within those columns are SNP data. 
 2. There are 2783 lines, 2744038 words, and 11051939 characters/bytes
 3. The file is 6.5M
 4. There are 986 columns after the header is removed.
