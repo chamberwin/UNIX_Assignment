@@ -1,8 +1,4 @@
-# Course Assignments
-
-A description of files within this folder:
-
-# UNIX Assignment Created Files
+# UNIX Assignment - in * `Output `
 ## Maize
 ### Sort increasing position
 * `chr1_maize.txt
@@ -58,6 +54,8 @@ chr10_teosinte_-.txt `
 * `unknown_teosinte_SNPs.txt `
 ### Multiple positions
 * `multiple_teosinte_SNPs.txt `
+
+## Intermediate Files - in * `Intermediate `
 
 ## Class UNIX Files
 * `UNIX_Assignment.md` and `UNIX_Assignment.pdf`: Instructions for the assignment
