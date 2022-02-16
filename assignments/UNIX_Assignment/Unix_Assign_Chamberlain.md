@@ -66,14 +66,14 @@ Next, we extracted just the groups we needed for the maize and teosinte files. W
 
     $ grep -E "(ZMMIL|ZMMLR|ZMMMR|Sample_ID)" fang_et_al_genotypes.txt >     maize_genotypes.txt
     
-To ensure Tripsacum data was not also added to the new file, I searched for TRIPS in maize_genotypes.txt
+To ensure Tripsacum data was not also added to the new file, we searched for TRIPS in maize_genotypes.txt
 
     $ grep "TRIPS" maize_genotypes.txt
     
-To ensure "Sample_ID" properly pulled in and file re-written, I grep'ed again.
+To ensure "Sample_ID" properly pulled in and file re-written, we grep'ed again.
 
     $ grep "Sample_ID" maize_genotypes.txt
-Once satisfied, I continued the sampe process for the teosinte file:
+Once satisfied, we continued the sampe process for the teosinte file:
 
     $ grep -E "(ZMPBA|ZMPIL|ZMPJA|Sample_ID)" fang_et_al_genotypes.txt > teosinte_genotypes.txt
 
