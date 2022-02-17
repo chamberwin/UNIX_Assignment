@@ -1,4 +1,8 @@
-# UNIX Assignment - in * `Output `
+# UNIX Assignment Instructions
+* `UNIX_Assignment.md` and `UNIX_Assignment.pdf`: Instructions for the assignment
+* `UNIX_Assignment_Template.md` and `UNIX_Assignment_Template.pdf`: An example of what your Markdown file should look like when you submit your assignment, including 
+* `UNIX_Assignment_Chamberlain.md`: Scripts and explanation
+# Files
 ## Maize
 ### Sort increasing position
 * `chr1_maize.txt
@@ -55,10 +59,25 @@ chr10_teosinte_-.txt `
 ### Multiple positions
 * `multiple_teosinte_SNPs.txt `
 
-## Intermediate Files - in * `Intermediate `
-
-## Class UNIX Files
-* `UNIX_Assignment.md` and `UNIX_Assignment.pdf`: Instructions for the assignment
-* `UNIX_Assignment_Template.md` and `UNIX_Assignment_Template.pdf`: An example of what your Markdown file should look like when you submit your assignment, including some Markdown syntax that should be helpful for you. The pdf shows how this file is rendered using a tool such as "MacDown"
-* The two files `fang_et_al_genotypes.txt` and `snp_positions.txt` are data files you will be reformatting for the assignment
-* The `transpose.awk` script will be needed to transpose the data (see instructions in `UNIX_Assignment.md`)
+## Intermediate Files
+* `all_chrom_maize.txt 
+all_chrom_teosinte.txt
+cut_snp_positions.txt
+maize_genotypes.txt
+maize_with_snps.txt  
+rev_all_chrom_maize_-.txt
+rev_all_chrom_maize.txt
+rev_all_chrom_teosinte_-.txt
+rev_all_chrom_teosinte.txt
+sorted_snp_position.txt
+sort_transposed_maize_genotypes.txt
+sort_transposed_teosinte_genotypes.txt
+teosinte_genotypes.txt
+teosinte_with_snps.txt
+transposed_maize_genotypes.txt
+transposed_teosinte_genotypes.txt `
+  
+## Datasets
+* ` fang_et_al_genotypes.txt
+snp_position.txt
+transpose.awk `
